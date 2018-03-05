@@ -1,4 +1,4 @@
-AmI = ""
+AmI = "kodai"
 
 .PHONY: build, clean, echo, copy
 
@@ -29,4 +29,4 @@ all: main.o hello.o world.o
 
 echo:
 #ここを編集
-	@echo tatatakkyです
+	@echo tatatakkyであり、${AmI}でもあります。
